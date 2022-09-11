@@ -1,0 +1,14 @@
+.place__link {
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .place__link {
+    padding-left: 0;
+  }
+}
