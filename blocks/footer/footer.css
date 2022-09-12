@@ -1,7 +1,5 @@
 .footer {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 32px 0 24px 16px;
+  padding: 64px 0 24px 16px;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -13,7 +11,5 @@
 @media screen and (min-width: 1024px) {
   .footer {
     padding: 92px 48px 24px 48px;
-    display: flex;
-    justify-content: space-between;
   }
 }

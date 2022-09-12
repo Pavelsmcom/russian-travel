@@ -1,22 +1,14 @@
 .footer__link {
-  padding-top: 32px;
-  display: block;
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
   color: #ffffff;
-  background-color: black;
 }
 @media screen and (min-width: 768px) {
   .footer__link {
-    display: inline;
-    padding-top: 0;
     font-size: 16px;
     line-height: 18px;
-  }
-  .footer__link:not(:last-child) {
-    padding-right: 18px;
   }
 }

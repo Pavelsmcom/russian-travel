@@ -10,7 +10,6 @@
 .place__paragraph:not(:last-child) {
   padding-bottom: 25px;
 }
-
 @media screen and (min-width: 768px) {
   .place__paragraph {
     padding-left: 0;

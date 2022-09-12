@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Russian Travel</title>
+    <title>Путешествия по России</title>
   </head>
   <body>
     <div class="page">
@@ -40,8 +40,8 @@
           </svg>
         </div>
         <ul class="lang-link">
-          <li><a class="lang-link__item" href="#!">Ru</a></li>
-          <li><a class="lang-link__item" href="#!">En</a></li>
+          <li><a class="lang-link__item lang-link__item_active link-opacity" href="#!">Ru</a></li>
+          <li><a class="lang-link__item link-opacity" href="#!">En</a></li>
         </ul>
       </header>
       <!--main-->
@@ -49,10 +49,8 @@
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <!-- <div class="testik"> -->
           <img class="lead__image" src="./images/lead-polka.jpg" alt="Плацкарт" />
           <p class="lead__caption">ваша полка — верхняя</p>
-          <!-- </div> -->
         </section>
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -64,14 +62,14 @@
             места, достойные вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="intro__list intro__list_font-weight_normal">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_font-weight_normal">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_font-weight_normal">16</span></li>
+            <li>Природных заповедников <span class="intro__list intro__list_font-weight_normal">105</span></li>
+            <li>Аэропортов <span class="intro__list intro__list_font-weight_normal">241</span></li>
           </ul>
         </section>
-        <section class="photo-grid">
+        <section class="photo-grid" aria-label="Секция с фотографиями">
           <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Окно поезда" />
           <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Гора" />
           <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Волк на стоге" />
@@ -89,7 +87,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="#!">park-kosa.ru</a>
+            <a class="place__link link-opacity" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса" />
           <div>
@@ -98,7 +96,7 @@
               волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.
             </p>
             <p class="place__paragraph">
-              На этом Калининградская область не заканчивается. Для&nbspпутешественника и исследователя там же по соседству — самая западная точка России,
+              На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России,
               Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы
               и запах стального, прохладного моря.
             </p>
@@ -108,7 +106,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="#!">National Geographic</a>
+            <a class="place__link link-opacity" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский полуостров" />
           <div>
@@ -127,7 +125,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="#!">Facebook</a>
+            <a class="place__link link-opacity" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="Алтай" />
           <div>
@@ -145,7 +143,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="#!">https://vk.com/baikalmile</a>
+            <a class="place__link link-opacity" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" />
           <div>
@@ -164,7 +162,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="#!">http://vodlozero.ru/</a>
+            <a class="place__link link-opacity" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия" />
           <p class="place__paragraph">
@@ -175,19 +173,26 @@
           </p>
         </section>
         <section class="cover">
-          <h2 class="cover__title">До Байкала «на&nbspсобаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+            <div class="cover__overlay">
+              <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </div>
+          </a>
         </section>
       </main>
       <!--footer-->
       <footer class="footer">
-        <nav class="footer__list">
-          <a class="footer__link" href="#">Карты</a>
-          <a class="footer__link" href="#">Расписание</a>
-          <a class="footer__link" href="#">Календарь</a>
-          <a class="footer__link" href="#">Путешествия</a>
+        <nav>
+          <ul class="footer__list">
+            <li><a class="footer__link link-opacity" href="https://yandex.ru/maps">Карты</a></li>
+            <li><a class="footer__link link-opacity" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li><a class="footer__link link-opacity" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li><a class="footer__link link-opacity" href="https://calendar.yandex.ru">Календарь</a></li>
+            <li><a class="footer__link link-opacity" href="https://travel.yandex.ru">Путешествия</a></li>
+          </ul>
         </nav>
-        <p class="footer__copyright">&copy 2022. Павел Мелехин</p>
+        <p class="footer__copyright">&copy; 2022. Павел Мелехин</p>
       </footer>
     </div>
   </body>

@@ -1,6 +1,4 @@
 .page {
-  /* max-width: 320px; */
-  margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
   background-color: #2a2c2f;
 
@@ -10,4 +8,10 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+}
+@media screen and (min-width: 1280px) {
+  .page {
+    padding-left: calc((100% - 1280px)/2);
+    padding-right: calc((100% - 1280px)/2);
+  }
 }

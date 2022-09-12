@@ -1,9 +1,5 @@
-.place__website {
-  /* padding-bottom: 32px; */
-}
 @media screen and (min-width: 768px) {
   .place__website {
     align-self: end;
-    /* padding-bottom: 0; */
   }
 }
