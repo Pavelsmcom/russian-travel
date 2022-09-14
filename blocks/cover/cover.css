@@ -1,28 +1,33 @@
 .cover {
-  padding-top: 66px;
-  background: url(../../images/cover-trains.jpg);
+  background: url(../../images/cover-trains.jpg) no-repeat center / cover;
   background-origin: content-box;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 100%;
-  height: calc(100vw/1.6);
+  min-height: calc(100vw / 1.6);
   margin: 0 auto;
+  position: relative;
+  /* Выравнивание текста */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-@media screen and (min-width: 768px) {
-  .cover {
-   padding-top: 90px;
-  }
+/* Затемнение: */
+.cover:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(42, 44, 47, 0.3);
+  transition: background-color 0.5s;
+  z-index: 1;
 }
-@media screen and (min-width: 1024px) {
-  .cover {
-    padding-top: 92px;
-  }
+.cover:hover:after {
+  background-color: rgb(42, 44, 47, 0.8);
 }
 @media screen and (min-width: 1280px) {
   .cover {
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
   }
 }
-

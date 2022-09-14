@@ -4,6 +4,9 @@
   grid-template-columns: 1fr;
   row-gap: 32px;
 }
+.place:last-child {
+  padding-bottom: 66px;
+}
 @media screen and (min-width: 768px) {
   .place {
     padding: 73px 24px 0 24px;
@@ -11,12 +14,18 @@
     column-gap: 28px;
     row-gap: 48px;
   }
+  .place:last-child {
+    padding-bottom: 90px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .place {
     padding: 80px 48px 0 48px;
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
+  }
+  .place:last-child {
+    padding-bottom: 92px;
   }
 }
 @media screen and (min-width: 1280px) {

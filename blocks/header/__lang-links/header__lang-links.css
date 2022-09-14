@@ -1,14 +1,14 @@
-.lang-link {
-  min-width: 62px;
+.header__lang-links {
   margin: 0;
+  padding-left: 0;
   padding-top: 14px;
   display: flex;
   justify-content: space-between;
+  column-gap: 18px;
   list-style-type: none;
 }
 @media screen and (min-width: 768px) {
-  .lang-link {
-    min-width: 77px;
+  .header__lang-links {
     padding-top: 18px;
   }
 }

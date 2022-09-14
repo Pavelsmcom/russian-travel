@@ -1,5 +1,4 @@
 .lead {
-  line-height: 0;
   /* Нужно для разрешений 1024+: */
   text-align: center;
 }
