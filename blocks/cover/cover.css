@@ -5,10 +5,8 @@
   min-height: calc(100vw / 1.6);
   margin: 0 auto;
   position: relative;
-  /* Выравнивание текста */
+  /* Для границ ссылки: */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 /* Затемнение: */
 .cover:after {
